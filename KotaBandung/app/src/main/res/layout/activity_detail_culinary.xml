@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/photo_culinary"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/paskalfoodmarket" />
+
+        <TextView
+            android:id="@+id/name_culinary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1.13"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Paskal Food Market" />
+
+        <TextView
+            android:id="@+id/desc_culinary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"
+            android:justificationMode="inter_word"
+            android:text="Paskal Food Market adalah destinasi kuliner yang terkenal di Bandung, Indonesia. Tempat ini menawarkan beragam makanan dan minuman dari berbagai macam kulinernya, mulai dari hidangan lokal hingga internasional. Lokasinya yang strategis, berada di kompleks Paskal Hypersquare, membuatnya menjadi tempat favorit bagi para pengunjung yang ingin menikmati berbagai pilihan kuliner dalam satu tempat.
+            Paskal Food Market menyediakan berbagai stan atau booth makanan yang menjajakan berbagai jenis kuliner, mulai dari makanan jalanan Indonesia, makanan Asia, makanan barat, hingga makanan penutup. Tempat ini sangat cocok bagi pecinta makanan yang ingin mengeksplorasi berbagai cita rasa dalam satu lokasi.
+            Selain itu, suasana di Paskal Food Market juga cukup nyaman dan ramai, membuat pengalaman makan lebih menyenangkan. Terkadang, di sana juga diadakan acara-acara khusus, seperti pertunjukan musik atau festival makanan tertentu." />
+
+        <Button
+            android:id="@+id/button_direction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Lokasi" />
+    </LinearLayout>
+
+
+</ScrollView>

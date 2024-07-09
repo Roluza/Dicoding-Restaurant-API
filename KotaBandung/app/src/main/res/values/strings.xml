@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Kota Bandung</string>
+    <string name="about">
+        Nikmati pengalaman mengenai sejarah singkat, keindahan alam, cuaca yang terkini, serta kelezatan kuliner khas Bandung, semuanya dalam satu aplikasi yang mudah diakses.
+        Aplikasi ini membahas mengenai sejarah singkat kota Bandung. Tak hanya itu, aplikasi ini juga memberikan pembaruan real-time tentang kondisi cuaca di Bandung, memungkinkan pengguna untuk merencanakan aktivitas mereka dengan tepat sesuai dengan perkiraan cuaca terkini.
+        Jelajahi beragam destinasi wisata yang menakjubkan di Kota Bandung. Bagi para pecinta kuliner, aplikasi ini adalah panduan terbaik untuk menemukan nikmatnya kekayaan kuliner Bandung.
+    </string>
+
+    <string-array name="tour_name">
+        <item>Kampung Cai Ranca Upas</item>
+        <item>Kawah Putih Ciwidey</item>
+        <item>Lembang Park &amp; Zoo</item>
+        <item>The Great Asia Africa</item>
+        <item>Orchid Forest Cikole</item>
+    </string-array>
+
+    <string-array name="culinary_name">
+        <item>Paskal Food Market</item>
+        <item>Sudirman Street Bandung</item>
+        <item>Mie Rica Kejaksaan</item>
+        <item>Mih Kocok Bandung Mang Dadeng</item>
+        <item>Sate Jando Gasibu</item>
+    </string-array>
+
+    <string-array name="culinary_description">
+        <item>
+            \t\tPaskal Food Market adalah destinasi kuliner yang terkenal di Bandung, Indonesia. Tempat ini menawarkan beragam makanan dan minuman dari berbagai macam kulinernya, mulai dari hidangan lokal hingga internasional. Lokasinya yang strategis, berada di kompleks Paskal Hypersquare, membuatnya menjadi tempat favorit bagi para pengunjung yang ingin menikmati berbagai pilihan kuliner dalam satu tempat. \n\n
+            Paskal Food Market menyediakan berbagai stan atau booth makanan yang menjajakan berbagai jenis kuliner, mulai dari makanan jalanan Indonesia, makanan Asia, makanan barat, hingga makanan penutup. Tempat ini sangat cocok bagi pecinta makanan yang ingin mengeksplorasi berbagai cita rasa dalam satu lokasi. \n\n
+            Selain itu, suasana di Paskal Food Market juga cukup nyaman dan ramai, membuat pengalaman makan lebih menyenangkan. Terkadang, di sana juga diadakan acara-acara khusus, seperti pertunjukan musik atau festival makanan tertentu.
+        </item>
+        <item>
+            \t\tJalan Sudirman di Bandung adalah salah satu jalan utama yang terletak di pusat kota. Jalan ini memiliki sejumlah tempat penting dan menarik untuk dikunjungi di sepanjang jalannya. \n\n
+            Beberapa fasilitas yang bisa ditemui di sekitar Jalan Sudirman antara lain pusat perbelanjaan, hotel, kantor, bank, dan berbagai tempat makan. Terdapat juga kawasan bisnis dan perkantoran di sekitar jalan ini, membuatnya cukup ramai dengan aktivitas sehari-hari. \n\n
+            Selain itu, Jalan Sudirman juga terkenal dengan berbagai acara dan festival yang diadakan di sana, seperti pameran seni, pasar malam, atau festival musik. Kawasan ini juga dikenal dengan berbagai tempat kuliner yang menarik dan beragam.
+        </item>
+        <item>
+            \t\tMie Rica Kejaksaan merupakan salah satu kuliner khas dari daerah Bandung, Indonesia. Mie Rica sendiri adalah mie yang disajikan dengan kuah pedas khas dengan tambahan daging dan bumbu-bumbu yang khas. \n\n
+            Mie Rica Kejaksaan adalah salah satu tempat di Bandung yang terkenal dengan hidangan mie rica-nya yang lezat. Terletak di daerah Kejaksaan, tempat ini menjadi tujuan bagi pecinta mie pedas. Keunikan dari mie rica ini terletak pada kepedasannya yang berasal dari campuran rempah-rempah khas serta penggunaan cabai yang cukup banyak. \n\n
+            Di sini, pengunjung dapat memilih tingkat kepedasan sesuai selera, mulai dari yang tidak terlalu pedas hingga yang sangat pedas. Biasanya, mie rica disajikan dengan irisan daging sapi atau ayam yang dimasak bersama kuah yang kental dan beraroma rempah. Selain itu, ada tambahan seperti telur rebus, tomat, dan bawang goreng untuk menambah cita rasa. \n\n
+            Tempat ini populer di kalangan pecinta makanan pedas, namun untuk yang tidak terlalu menyukai pedas, disarankan untuk meminta versi yang lebih ringan dalam tingkat kepedasannya. Bagaimana, tertarik mencoba hidangan pedas ini?
+        </item>
+        <item>
+            \t\tMih Kocok merupakan hidangan khas Bandung yang terdiri dari mie yang direbus dan dicampur dengan bumbu khas serta potongan daging sapi atau tendon sapi yang dimasak secara khusus. Mih Kocok terkenal dengan kuahnya yang gurih dan beraroma khas. \n\n
+            Mang Dadeng adalah salah satu tempat di Bandung yang terkenal dengan sajian Mih Kocoknya. Mereka terkenal karena menggunakan resep warisan turun-temurun sehingga memiliki cita rasa yang khas dan autentik. \n\n
+            Hidangan ini terdiri dari mie yang direbus dengan baik, kemudian disiram dengan kuah kaldu sapi yang kaya akan rempah-rempah dan bumbu tradisional. Potongan daging sapi atau tendon sapi yang empuk juga menjadi bagian utama dari hidangan ini. Selain itu, terkadang ditambahi dengan tauge, daun bawang, dan bawang goreng sebagai pelengkap. \n\n
+            Mih Kocok Bandung Mang Dadeng merupakan salah satu destinasi kuliner yang populer bagi wisatawan dan warga setempat yang ingin menikmati hidangan khas dari Bandung. Jika kamu menyukai hidangan mie dengan kuah yang kaya rasa, Mih Kocok ini bisa menjadi pilihan yang menarik untuk dicoba ketika berada di Bandung. Apakah kamu tertarik mencicipi Mih Kocok Bandung di Mang Dadeng?
+        </item>
+        <item>
+            \t\tSate Jando Gasibu adalah salah satu warung sate yang terkenal di Bandung, Indonesia. Warung ini terletak di kawasan Gasibu, yang merupakan salah satu tempat populer di Bandung. Sate Jando dikenal karena sajian sate kambingnya yang lezat dan menjadi favorit bagi banyak orang. \n\n
+            Sate kambing yang disajikan di Sate Jando Gasibu memiliki cita rasa yang khas dan dagingnya dipanggang dengan baik, memberikan rasa yang gurih dan empuk. Proses pemanggangan sate kambing ini menggunakan arang, yang memberikan aroma dan cita rasa yang unik pada dagingnya. \n\n
+            Keunikan dari Sate Jando Gasibu adalah bumbu kacangnya yang khas, biasanya terdiri dari campuran kacang tanah, bawang, cabai, dan rempah-rempah lainnya yang memberikan cita rasa yang istimewa pada sate kambingnya. \n\n
+            Tempat ini seringkali ramai dikunjungi terutama pada malam hari, ketika suasana mulai sejuk dan cocok untuk menikmati sate kambing yang hangat dan lezat. Bagi pecinta kuliner, Sate Jando Gasibu bisa menjadi salah satu tempat yang direkomendasikan untuk mencicipi sate kambing khas Bandung. Apakah kamu tertarik mencoba Sate Jando Gasibu?
+        </item>
+
+    </string-array>
+
+    <integer-array name="photo_culinary">
+        <item>@drawable/paskalfoodmarket</item>
+        <item>@drawable/sudirmanstreetbandung</item>
+        <item>@drawable/featuredmiericakejaksaanbragabandung</item>
+        <item>@drawable/mihkocokbandungmangdadeng</item>
+        <item>@drawable/satejandogasibu</item>
+    </integer-array>
+
+    <string-array name="tour_description">
+        <item>
+            \t\tRanca Upas adalah salah satu destinasi wisata yang populer di Bandung, Jawa Barat, Indonesia. Ranca Upas terkenal dengan suasana alam yang indah, udara segar, dan keberagaman aktivitas yang ditawarkan kepada pengunjung.
+            Ranca Upas terletak di kawasan perbukitan Bandung, sekitar 40 kilometer dari pusat kota. \n\n
+            Kawasan ini dikelola oleh Perum Perhutani dan dikenal sebagai tempat pelestarian alam.
+            Dengan latar belakang hutan pinus dan keindahan alamnya, Ranca Upas juga menjadi spot fotografi yang populer.
+            Pengunjung dapat menikmati berbagai aktivitas, seperti berjalan-jalan di sekitar hutan pinus, bermain dengan rusa, atau bahkan mendirikan tenda untuk camping. \n\n
+            Suasana tenang dan udara segar menjadikan Ranca Upas tempat yang ideal untuk melepaskan stres dan menikmati keindahan alam.
+            Meskipun berada di luar kota, akses ke Ranca Upas relatif mudah. Pengunjung dapat menggunakan mobil pribadi atau menggunakan jasa transportasi umum dan kemudian melanjutkan dengan ojek atau kendaraan lainnya.\n\n
+            Catatan Penting: Sebelum mengunjungi, disarankan untuk memeriksa kondisi terkini dan aturan-aturan yang berlaku, karena informasi bisa berubah dari waktu ke waktu.
+        </item>
+
+        <item>
+            \t\tKawah Putih adalah salah satu destinasi wisata alam yang menakjubkan di Ciwidey, Bandung Selatan, Jawa Barat, Indonesia.
+            Kawah Putih terletak di wilayah Ciwidey, sekitar 50 kilometer ke arah selatan dari pusat kota Bandung. \n\n
+            Kawah ini terletak di dataran tinggi dengan akses yang relatif mudah dijangkau.
+            Kawah Putih dikenal karena danau yang berada di dalamnya memiliki warna air yang unik, yaitu putih kehijauan atau biru keputihan. Warna ini disebabkan oleh kandungan belerang dalam air danau. \n\n
+            Kawah Putih menawarkan pemandangan alam yang sangat indah, menjadi surga bagi para pecinta fotografi. Pengunjung dapat menikmati pemandangan dan mengabadikan momen indah di sekitar kawah.
+            Karena lokasinya yang berada di dataran tinggi, suhu di sekitar Kawah Putih bisa cukup dingin. \n\n
+            Pengunjung disarankan untuk membawa jaket atau pakaian hangat, terutama jika mengunjungi pada pagi atau sore hari.
+            Kawah Putih dapat diakses melalui jalur darat dengan menggunakan kendaraan pribadi atau menggunakan transportasi umum. Terdapat area parkir yang cukup luas di sekitar kawasan wisata. \n\n
+            Catatan Penting: Sebelum mengunjungi, selalu disarankan untuk memeriksa kondisi terkini dan aturan-aturan yang berlaku di Kawah Putih, karena informasi tersebut dapat berubah dari waktu ke waktu.
+        </item>
+
+        <item>
+            \t\tLembang Park &amp; Zoo adalah salah satu destinasi wisata populer di Lembang, Bandung, Jawa Barat, Indonesia.
+            Lembang Park &amp; Zoo terletak di Lembang, sebuah kawasan pegunungan yang dikenal dengan iklim sejuk dan pemandangan alam yang indah, terletak sekitar 12 kilometer utara dari pusat kota Bandung. \n\n
+            Lembang Park &amp; Zoo menawarkan berbagai wahana dan atraksi taman hiburan yang cocok untuk pengunjung segala usia. Termasuk di dalamnya adalah wahana permainan, seperti roller coaster mini, perahu kora-kora, dan banyak lagi. \n\n
+            Bagian kebun binatang dari kompleks ini menawarkan kesempatan untuk melihat berbagai macam hewan, termasuk mamalia, burung, reptil, dan hewan eksotis lainnya. Kebun binatang ini sering menjadi daya tarik utama, terutama untuk keluarga dengan anak-anak. \n\n
+            Lembang Park &amp; Zoo juga memiliki fasilitas kolam renang yang menyenangkan, cocok untuk berenang atau bersantai, terutama pada hari-hari yang panas.
+            Lembang Park &amp; Zoo dapat diakses dengan kendaraan pribadi atau menggunakan jasa transportasi umum. Terdapat area parkir yang cukup luas di sekitar kompleks wisata. \n\n
+            Catatan Penting: Sebelum mengunjungi, selalu disarankan untuk memeriksa informasi terkini, harga tiket, dan jam operasional, karena hal tersebut dapat berubah dari waktu ke waktu.
+        </item>
+
+        <item>
+            \t\tSalah satu tempat wisata Bandung yang tengah hits adalah The Great Asia Afrika Lembang. Tempat wisata beralamat di Jalan Raya Lembang - Bandung Nomor 71, Lembang ini terkenal karena menawarkan sensasi keliling tujuh negara tanpa harus harus keluar negeri. \n\n
+            Hal ini dikarenakan terdapat miniatur destinasi wisata terkenal dari tujuh negara. Adapun negara-negara yang ditampilkan berasal dari benua Asia dan Afrika, sesuai namanya.
+            Siapa saja yang berkunjung akan merasa seperti berada di negara-negara tersebut dengan mengelilingi landmark yang telah ditata sedemikian rupa sehingga mirip dengan aslinya. Salah satunya adalah duplikat Fushimi Inari Taisha, kuil Shinto yang berada di Fushimi-ku, Kyoto, Jepang. \n\n
+            Kemudian, pengunjung juga bisa membeli makanan, suvenir, dan belajar kebudayaan dari masing-masing negara.
+            Tak hanya berfoto dan berkeliling, pengunjung juga bisa menyewa pakaian adat masing-masing negara contohnya pakaian Lehenga Choli yang dikenal berasal dari negara bagian Rajasthan, India. Pakaian ini sering dipakai pada saat festival, pernikahan, atau acara khusus di India. Usai menyewa, pengunjung bisa langsung foto di salah satu spot miniatur Kota Jaipur. \n\n
+            Jika merasa lelah berkeliling, kamu bisa menggunakan fasilitas kereta derek. Kereta ini akan memudahkan kamu berkeliling ke setiap landmark yang ada. Pengelola The Great Asia Afrika telah menyediakan dua buah kereta derek yang siap mengantarkanmu menjelajahi tujuh negara. \n\n
+            Catatan Penting: Sebelum mengunjungi, selalu disarankan untuk memeriksa informasi terkini, harga tiket, dan jam operasional, karena hal tersebut dapat berubah dari waktu ke waktu.
+        </item>
+
+        <item>
+            \t\tOrchid Forest Cikole adalah destinasi wisata yang terletak di Cikole, Lembang, Bandung, Jawa Barat, Indonesia.
+            Orchid Forest Cikole terletak di kawasan pegunungan Lembang, sekitar 12 kilometer utara dari pusat kota Bandung. \n\n
+            Lokasinya yang berada di tengah alam dan suasana pegunungan menjadikannya tempat populer untuk berlibur dan melepaskan kepenatan.
+            Sebagian besar area Orchid Forest Cikole adalah kebun anggrek yang indah. Pengunjung dapat menikmati berjalan-jalan di antara berbagai jenis anggrek yang berwarna-warni dan indah. \n\n
+            Salah satu daya tarik utama adalah jembatan gantung Sky Walk yang tinggi. Dari sini, pengunjung dapat menikmati pemandangan indah dari ketinggian dan mengabadikan momen dengan foto-foto menakjubkan.
+            Orchid Forest Cikole menyediakan banyak spot fotografi yang menarik, seperti patung-patung unik, dekorasi alam, dan area yang indah untuk mendokumentasikan kunjungan Anda.
+            Orchid Forest Cikole dapat diakses dengan kendaraan pribadi atau menggunakan jasa transportasi umum. Terdapat area parkir yang cukup luas di sekitar kompleks wisata. \n\n
+            Catatan Penting: Sebelum mengunjungi, selalu disarankan untuk memeriksa informasi terkini, harga tiket, dan jam operasional, karena hal tersebut dapat berubah dari waktu ke waktu.
+        </item>
+    </string-array>
+
+    <integer-array name="photo_tour">
+        <item>@drawable/kampung_cai_ranca_upas</item>
+        <item>@drawable/kawah_putih</item>
+        <item>@drawable/lembang_park_zoo</item>
+        <item>@drawable/the_great_asia_africa</item>
+        <item>@drawable/orchid_forest</item>
+    </integer-array>
+
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="sejarah">
+        \t\tSejak Kota Bandung berdiri hingga pertengahan tahun 1864, hanya berfungsi sebagai ibukota kabupaten yang sepenuhnya diperintah bupati R.A. Wiranatakusumah II dilanjutkan Bupati R.A. Wiranatakusumah III (periode 1829-1846) dan Bupati R.A. Wiranatakusumah IV (periode 1846-1874).\n\n
+        Pada masa pemerintahan Bupati R.A. Wiranata Kusumah IV, tepatnya sejak tanggal 7 Agustus 1864, Kota Bandung berfungsi sebagai ibukota keresidenan priangan, menggantikan Kota Cianjur yang rusak berat akibat meletusnya gunung gede. Dengan demikian, sejak itu kota bandung terjadi dualisme pemerintahan, yakni pemerintahan kabupaten (pemerintahan tradisional) dan pemerintahan keresidenan (pemerintahan kolonial). Hal ini berlangsung sampai dengan Kota Bandung menjadi kota berpemerintahan otonom yang disebut gemeente (sejak 1 april 1906). \n\n
+        Gemeente Bandung dibentuk pada waktu Kabupaten Bandung diperintah Bupati ke-10 yaitu R.A.A. martanegara menggantikan Bupati R.A. Kusumadilaga. Dengan berdirinya pemerintahan gemeente, maka di Kota Bandung berlangsung tiga bentuk pemerintahan yaitu kabupaten, keresidenan, dan gemeente. Dalam hal ini, pemerintahan gemeente sebagai pemerintahan kota yang bersifat otonom, lebih dominan daripada kedua pemerintahan lainnya. Pengelolaan kota sepenuhnya menjadi tugas dan kewajiban pemerintah gemeente. Namun dalam praktiknya, Bupati tetap turut berperan dalam kapasitas sebagai anggota dewan kota (gemeente road). \n\n
+        Sejak tanggal 1 oktober 1926, sebutan gemeente diubah menjadi stadsgemeente, yang berlangsung hingga akhir pemerintahan Hindia Belanda. Pada masa pendudukan Jepang (periode Maret 1942 - 14 Agustus 1945), pemerintah Kota Bandung disebut Bandung Shi.
+    </string>
+</resources>
