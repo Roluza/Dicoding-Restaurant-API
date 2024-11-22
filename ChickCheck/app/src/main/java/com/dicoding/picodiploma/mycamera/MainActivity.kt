@@ -11,6 +11,7 @@ import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatImageButton
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import com.dicoding.picodiploma.mycamera.CameraActivity.Companion.CAMERAX_RESULT
@@ -115,27 +116,30 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun uploadImage() {
-        // Pastikan ada URI gambar yang dipilih
         val uri = currentImageUri ?: run {
             Toast.makeText(this, "Pilih gambar terlebih dahulu", Toast.LENGTH_SHORT).show()
             return
         }
 
-        // Mengonversi URI menjadi MultipartBody.Part
         val imagePart = createImagePart(uri) ?: run {
             Toast.makeText(this, "Gagal mengonversi gambar", Toast.LENGTH_SHORT).show()
             return
         }
 
-        // Panggil API
         val call = RetrofitClient.instance.uploadImage(imagePart)
         call.enqueue(object : Callback<DiseaseResponse> {
             override fun onResponse(call: Call<DiseaseResponse>, response: Response<DiseaseResponse>) {
                 if (response.isSuccessful) {
                     val diseaseResponse = response.body()
                     if (diseaseResponse != null) {
-                        // Tampilkan hasil dalam dialog
-                        showResultDialog(diseaseResponse)
+                        // Pindah ke halaman ListDisease
+                        val intent = Intent(this@MainActivity, ListDisease::class.java)
+                        intent.putParcelableArrayListExtra("EXTRA_DISEASE_LIST", arrayListOf(diseaseResponse))
+                        intent.putExtra("EXTRA_IMAGE_URI", uri.toString())
+                        startActivity(intent)
+
+                        // Menambahkan Toast sukses setelah berpindah halaman
+                        Toast.makeText(this@MainActivity, "Berhasil mengunggah gambar!", Toast.LENGTH_SHORT).show()
                     }
                 } else {
                     Toast.makeText(this@MainActivity, "Gagal: ${response.errorBody()?.string()}", Toast.LENGTH_SHORT).show()
@@ -148,23 +152,6 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    // Fungsi untuk menampilkan hasil respons dalam dialog
-    private fun showResultDialog(diseaseResponse: DiseaseResponse) {
-        val dialog = AlertDialog.Builder(this)
-            .setTitle("Hasil Deteksi Penyakit")
-            .setMessage("""
-            Penyakit: ${diseaseResponse.Penyakit}
-            Deskripsi: ${diseaseResponse.Deskripsi}
-            Penanganan: ${diseaseResponse.Penanganan}
-            Gejala: ${diseaseResponse.Gejala}
-        """.trimIndent())
-            .setPositiveButton("OK") { dialog, _ -> dialog.dismiss() }
-            .create()
-        dialog.show()
-    }
-
-
-
     private fun createImagePart(uri: Uri): MultipartBody.Part? {
         val contentResolver = contentResolver
         val type = contentResolver.getType(uri) ?: "image/jpeg" // Gunakan tipe default jika null
@@ -173,9 +160,6 @@ class MainActivity : AppCompatActivity() {
         val requestFile = fileBytes.toRequestBody(type?.toMediaTypeOrNull())
         return MultipartBody.Part.createFormData("image", "image.jpg", requestFile)
     }
-
-
-
 
     companion object {
         private const val REQUIRED_PERMISSION = Manifest.permission.CAMERA

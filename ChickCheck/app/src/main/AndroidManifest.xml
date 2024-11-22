@@ -22,6 +22,9 @@
         android:theme="@style/Theme.MyCamera"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DetailDisease"
+            android:exported="false" />
+        <activity
             android:name=".ListDisease"
             android:exported="false"
             android:theme="@style/Theme.MyCamera" />
