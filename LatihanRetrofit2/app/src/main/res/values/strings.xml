@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dicoding Restaurant API</string>
+    <string name="restaurant_image">Restaurant Image</string>
+</resources>
